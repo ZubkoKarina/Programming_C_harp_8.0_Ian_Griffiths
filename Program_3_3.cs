@@ -4,6 +4,9 @@ namespace classExample{
     public class Program3_3{
         public static void Main(string[] args){
             Console.WriteLine(Counter.TotalCount);
+            Counter c1 = new Counter();
+            var c2 = c1;
+            Console.WriteLine("c1: " + c1.GetNextValue());
         }
 
         public class Counter{
@@ -15,7 +18,6 @@ namespace classExample{
                 _totalCount +=1;
                 return _count;
             }
-
             public static int TotalCount => _totalCount;
         }
     }

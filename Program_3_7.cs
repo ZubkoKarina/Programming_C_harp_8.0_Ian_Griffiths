@@ -14,4 +14,3 @@ class Program_3_7{
                 WriteLine(Sin(PI/4));
         }
 }
-

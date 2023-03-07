@@ -11,7 +11,6 @@ class Program_3_31{
         static Bar(){
             Console.WriteLine("Bar`s static constructor");
             _firstUser = DateTime.Now;
-
         }
     }
 }
